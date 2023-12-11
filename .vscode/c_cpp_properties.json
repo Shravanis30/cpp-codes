@@ -1,0 +1,17 @@
+{
+    "configurations": [
+      {
+        "name": "Linux",
+        "includePath": [
+          "${workspaceFolder}/**", // This includes all files in your workspace
+          "/path/to/your/include/directory" // Add the path to your include directory
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/gcc", // Path to your GCC compiler
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "clang-x64"
+      }
+    ],
+    "version": 4
+  }

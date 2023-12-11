@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "oracledevtools.defaultConnection": "ADMIN.XEPDB1",
+    "C_Cpp.intelliSenseEngineFallback": "enabled",
+    "C_Cpp.dimInactiveRegions": true
+}
