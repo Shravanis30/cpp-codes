@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class demo {
-    private:
+    private: 
     int a, b;
     public:
     demo(int x, int y) {
