@@ -7,7 +7,7 @@ class demo {
     demo(int x, int y) {
         a = x;
         b = y;
-    }
+    } 
     void display() {
         cout << "A = "<< a << " " << endl << "B = " << b << endl;
     }
