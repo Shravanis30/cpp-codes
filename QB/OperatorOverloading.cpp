@@ -1,19 +1,26 @@
+// C++ PROGARM OF OPERATOR OVERLOADING
 #include <bits/stdc++.h>
 using namespace std;
-class demo {
-    private: 
+class demo
+{
+private:
     int a, b;
-    public:
-    demo(int x, int y) {
+
+public:
+    demo(int x, int y)
+    {
         a = x;
         b = y;
-    } 
-    void display() {
-        cout << "A = "<< a << " " << endl << "B = " << b << endl;
     }
-    void operator-(){
-        a = a+b;
-        b = a*b;
+    void display()
+    {
+        cout << "A = " << a << " " << endl
+             << "B = " << b << endl;
+    }
+    void operator-()
+    {
+        a = a + b;
+        b = a * b;
     }
 };
 int main()
@@ -24,6 +31,6 @@ int main()
     cout << "After values :" << endl;
     -obj;
     obj.display();
-    
-return 0;
+
+    return 0;
 }

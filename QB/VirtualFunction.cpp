@@ -1,21 +1,28 @@
+// C++ PROGARM OF VIRTUAL FUNCTION
 #include <bits/stdc++.h>
 using namespace std;
-class animal{
-    public:
-    virtual void sound() {
-        cout << "some sound" <<endl;
+class animal
+{
+public:
+    virtual void sound()
+    {
+        cout << "some sound" << endl;
     }
 };
-class dog : private animal {
-    public:
-    void sound() override {
+class dog : private animal
+{
+public:
+    void sound() override
+    {
         cout << "barks" << endl;
     }
 };
-class cat : private animal {
-    public:
-    void sound() override {
-        cout <<"meows" <<endl;
+class cat : private animal
+{
+public:
+    void sound() override
+    {
+        cout << "meows" << endl;
     }
 };
 int main()
@@ -30,5 +37,5 @@ int main()
     d.sound();
     cout << "cat = ";
     c.sound();
-return 0;
+    return 0;
 }
