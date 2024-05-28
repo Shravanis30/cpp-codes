@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp"
     },
     "oracledevtools.defaultConnection": "ADMIN.XEPDB1",
     "C_Cpp.intelliSenseEngineFallback": "enabled",

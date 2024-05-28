@@ -1,3 +1,4 @@
+//Binary Search algo
 #include<iostream>
 using namespace std;
 int main()
